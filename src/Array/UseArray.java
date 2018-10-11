@@ -5,7 +5,7 @@ public class UseArray {
     public static void main(String[] args) {
         int [] array = new int[6];
         Scanner sc = new Scanner(System.in);//this is for the scanner input
-        //Random random = new Random();//this is for the random number
+        Random random = new Random();//this is for the random number
         System.out.println("please enter numbers");
         for(int i = 0; i <array.length;i++){//i is the index for the arra
             // array [i]= random.nextInt(100);
